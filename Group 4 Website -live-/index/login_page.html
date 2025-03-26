@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <link rel="stylesheet" href="../styles/beef.css">
+<body>
+  <!-- Applying .header class to a header element -->
+  <div class="header">
+    <h1>Welcome Employees to Grape Inc.</h1>
+  </div>
+  <!-- Container div with the 'center-both' class -->
+  <div class="center-both">
+    <!-- Content to center inside the 'center-text' div -->
+    <div class="center-text">
+      <h1>Welcome Employees to Grape Inc.</h1>
+<p>Please Login in with your Username and Password</p>
+
+<form> 
+<label for="Username">Username:</label><br>
+<input type="text" id="Username" name="Username"><br>
+<label for="Password">Password:</label><br>
+<input type="text" id="Password" name="Password"><br><br>
+
+<input type="button" id="confirm" name="confirm" onclick="auth_user()">
+<label for="confirm">Confirm</label>
+
+</form>
+
+<p><a href="db_engi/db_engi_workspace.html">database engineering</a></p> 
+<p><a href="soc_engi/soc_engi_workspace.html">security analyst</a></p> 
+
+
+
+<script>
+function auth_user() {
+const Username = document.getElementById("Username").value;
+const Password = document.getElementById("Password").value;
+fetch('/../db/users.json')  // Adjust the path based on your file structure
+	.then(response => {
+		if (!response.ok) {
+		throw new Error("Network response was not ok");
+		}
+		return response.json();  // Automatically parse the response as JSON
+		})
+
+	.then(data => {
+		let found = false;  // Variable to track if a match is found
+		let userstatus = "";
+		// Loop through the data array
+		for (let i = 0; i < data.length; i++) {
+		// Check if both the username and password match
+			if (data[i].Username === Username && data[i].Password === Password) {
+				found = true;  // Set found to true if a match is found
+				userstatus = data[i].Status
+				break;  // Exit the loop once a match is found
+		}
+	}
+
+		// After the loop, check if a match was found
+		if (found) {
+			console.log("Login successful!");
+
+			// Check the status and redirect the user
+		if (userstatus === 'db_engi') {
+				window.location.href = "db_engi/db_engi_workspace.html"; // Redirect to the db_engi page
+		} else if (userstatus === 'soc_engi') {
+			window.location.href = "soc_engi/soc_engi_workspace.html"; // Redirect to the soc_engi page
+		} else {
+			alert("User not authorized to access any content");
+		}
+		} else {
+			console.log("Invalid username or password");
+			alert("Invalid username or password");
+		}
+		})
+		
+		
+	.catch(error => {
+		console.error("Error fetching or parsing JSON:", error);
+		alert("Error fetching data");
+		});
+	}
+</script>
+</body>
+</html> 

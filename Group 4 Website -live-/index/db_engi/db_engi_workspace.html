@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../../styles/beef.css">
+<title>db_workspace</title>
+</head>
+
+<body>
+  <!-- Applying .header class to a header element -->
+  <div class="header">
+    <h1>Database Entries Below</h1>
+  </div>
+  <!-- Container div with the 'center-both' class -->
+  <div class="center-both">
+    <!-- Content to center inside the 'center-text' div -->
+    <div class="center-text">
+<button onclick="sortByName()">Sort by Name</button>
+<button onclick="sortByRole()">Sort by Role</button>
+
+
+<div id="users_DB">   
+
+<script>
+    let usersData = []; // This will store the fetched JSON data
+
+    // Fetch the data from the JSON file
+    fetch('../../db/db.json?')
+        .then(response => response.json())
+        .then(data => {
+            usersData = data; // Store the data
+            displayUsers(usersData); // Initial display
+        })
+        .catch(error => console.error('Error loading the JSON file:', error));
+
+    // Function to display users
+    function displayUsers(users) {
+        const jsonDataDiv = document.getElementById("users_DB");
+        jsonDataDiv.innerHTML = ''; // Clear existing content
+
+        // Loop through each user and display the data
+        users.forEach(user => {
+            jsonDataDiv.innerHTML += `
+                <div class="user-info">
+                    <span>Name: ${user.Name}</span>
+                    <span>Username: ${user.Username}</span>
+                    <span>Password: ${user.password}</span>
+                    <span>Email: ${user.email}</span>
+                    <span>Role: ${user.role}</span>
+                </div>
+            `;
+        });
+    }
+
+    // Function to sort users by Name
+    function sortByName() {
+        const sortedUsers = [...usersData].sort((a, b) => {
+            if (a.Name < b.Name) return -1;
+            if (a.Name > b.Name) return 1;
+            return 0;
+        });
+        displayUsers(sortedUsers); // Update the display with sorted data
+    }
+
+    // Function to sort users by Role
+    function sortByRole() {
+        const sortedUsers = [...usersData].sort((a, b) => {
+            if (a.role < b.role) return -1;
+            if (a.role > b.role) return 1;
+            return 0;
+        });
+        displayUsers(sortedUsers); // Update the display with sorted data
+    }
+</script>
+</div>
+</body>
+</html> 
+
