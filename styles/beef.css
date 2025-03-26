@@ -1,0 +1,23 @@
+
+.header {
+  background-color: #4d88ff;
+  padding: 50px;
+}
+.center-both {
+  display: flex;
+  justify-content: center;  
+  align-items: center;  
+  height: 50vh;          
+  background-color: #808080
+}
+
+
+.center-text {
+  text-align: center;  
+  font-family: Arial, wingdings;
+}
+
+
+body {
+  background-color: #808080;
+}

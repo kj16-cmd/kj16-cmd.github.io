@@ -1,0 +1,20 @@
+[
+	{
+		"User":"john",
+		"Username":"john",
+		"Password":"johnspassword",
+		"Status":"db_engi"	
+	},
+	{
+		"User":"edmund",
+		"Username":"edhead",
+		"Password":"sandwich",
+		"Status":"soc_engi"
+	},
+	{
+		"User":"",
+		"Username":"",
+		"Password":"",
+		"Status":""
+	}
+]

@@ -1,0 +1,93 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../../styles/beef.css">
+<title>soc_workspace</title>
+</head>
+
+<body>
+  <!-- Applying .header class to a header element -->
+  <div class="header">
+    <h1>Security Alerts Below</h1>
+  </div>
+  <!-- Container div with the 'center-both' class -->
+  <div class="center-both">
+    <!-- Content to center inside the 'center-text' div -->
+    <div class="center-text">
+<button onclick="sortBytime()">Sort by date and time</button>
+<button onclick="sortByinfo()">Sort by info</button>
+  
+<div id="Alerts">
+<script>
+    let usersData = []; // This will store the fetched JSON data
+
+    // Fetch the data from the JSON file
+    fetch('../../db/security_alerts.json?')
+        .then(response => response.json())
+        .then(data => {
+            usersData = data; // Store the data
+            usersData = processData(usersData); // Process data once when loaded
+            displayUsers(usersData); // Initial display
+        })
+        .catch(error => console.error('Error loading the JSON file:', error));
+
+    // Function to process the data (e.g., making links clickable)
+    function processData(users) {
+        return users.map(user => {
+            user.Info = user.Info.replace(/http:\/\/[^\s]+/g, function(url) {
+                return `<a href="${url}" target="_blank">${url}</a>`;
+            });
+            return user;
+        });
+    }
+
+    // Function to display users
+    function displayUsers(users) {
+        const jsonDataDiv = document.getElementById("Alerts");
+        jsonDataDiv.innerHTML = ''; // Clear existing content
+
+        // Loop through each user and display the data
+        users.forEach(user => {
+            jsonDataDiv.innerHTML += `
+                <div class="user-info">
+                    <span>Date and time>> ${user.DateandTime} | </span>
+                    <span>Source_IP >> ${user.Source_IP} | </span>
+                    <span>Destination_IP >> ${user.Destination_IP} | </span>
+                    <span>Alert_type >> ${user.Alert_type} | </span>
+                    <span>Info >> ${user.Info} | </span>
+                </div>
+            `;
+        });
+    }
+
+
+
+	//"DateandTime":"",
+	//	"Source_IP":"",
+	//	"Destination_IP":"",
+	//	"Alert_type":"",
+	//	"Info":""
+
+    // Function to sort users by Name
+    function sortBytime() {
+        const sortedUsers = [...usersData].sort((a, b) => {
+            if (a.DateandTime < b.DateandTime) return -1;
+            if (a.DateandTime > b.DateandTime) return 1;
+            return 0;
+        });
+        displayUsers(sortedUsers); // Update the display with sorted data
+    }
+
+    // Function to sort users by Role
+    function sortByinfo() {
+        const sortedUsers = [...usersData].sort((a, b) => {
+            if (a.info < b.info) return -1;
+            if (a.info > b.info) return 1;
+            return 0;
+        });
+        displayUsers(sortedUsers); // Update the display with sorted data
+    }
+</script>
+</div>
+</body>
+</html>
