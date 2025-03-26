@@ -25,8 +25,8 @@
 
 </form>
 
-<p><a href="/db_engi/db_engi_workspace.html">database engineering</a></p> 
-<p><a href="/soc_engi/soc_engi_workspace.html">security analyst</a></p> 
+<p><a href="/db_engi_workspace.html">database engineering</a></p> 
+<p><a href="/soc_engi_workspace.html">security analyst</a></p> 
 
 
 
@@ -61,9 +61,9 @@ fetch('/db/users.json')  // Adjust the path based on your file structure
 
 			// Check the status and redirect the user
 		if (userstatus === 'db_engi') {
-				window.location.href = "/db_engi/db_engi_workspace.html"; // Redirect to the db_engi page
+				window.location.href = "/db_engi_workspace.html"; // Redirect to the db_engi page
 		} else if (userstatus === 'soc_engi') {
-			window.location.href = "/soc_engi/soc_engi_workspace.html"; // Redirect to the soc_engi page
+			window.location.href = "/soc_engi_workspace.html"; // Redirect to the soc_engi page
 		} else {
 			alert("User not authorized to access any content");
 		}
