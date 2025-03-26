@@ -22,7 +22,7 @@
     let usersData = []; // This will store the fetched JSON data
 
     // Fetch the data from the JSON file
-    fetch('../../db/security_alerts.json?')
+    fetch('db/security_alerts.json?')
         .then(response => response.json())
         .then(data => {
             usersData = data; // Store the data
