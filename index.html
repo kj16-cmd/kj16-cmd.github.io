@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <link rel="stylesheet" href="../styles/beef.css">
+  <link rel="stylesheet" href="styles/beef.css">
 <body>
   <!-- Applying .header class to a header element -->
   <div class="header">
@@ -25,8 +25,8 @@
 
 </form>
 
-<p><a href="db_engi/db_engi_workspace.html">database engineering</a></p> 
-<p><a href="soc_engi/soc_engi_workspace.html">security analyst</a></p> 
+<p><a href="index/db_engi/db_engi_workspace.html">database engineering</a></p> 
+<p><a href="idex/soc_engi/soc_engi_workspace.html">security analyst</a></p> 
 
 
 
@@ -34,7 +34,7 @@
 function auth_user() {
 const Username = document.getElementById("Username").value;
 const Password = document.getElementById("Password").value;
-fetch('/../db/users.json')  // Adjust the path based on your file structure
+fetch('/db/users.json')  // Adjust the path based on your file structure
 	.then(response => {
 		if (!response.ok) {
 		throw new Error("Network response was not ok");
