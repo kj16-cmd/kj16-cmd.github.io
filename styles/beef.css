@@ -37,6 +37,7 @@ body {
     padding: 5px;  /* Add padding inside each entry */
     margin-bottom: 5px;  /* Add some space between entries */
     border-radius: 8px;  /* Optional: Adds rounded corners */
+    margin-top: 50px; /*adds padding to the top of the entries tables*/
     background-color: #f9f9f9;  /* Light background color */
 }
 
