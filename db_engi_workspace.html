@@ -14,11 +14,10 @@
   <div class="center-both">
     <!-- Content to center inside the 'center-text' div -->
     <div class="center-text">
-<button onclick="sortByName()">Sort by Name</button>
-<button onclick="sortByRole()">Sort by Role</button>
 
 
-<div id="users_DB">   
+
+<div id="data_field">   
 
 <script>
     let usersData = []; // This will store the fetched JSON data
@@ -28,15 +27,12 @@
         .then(response => response.json())
         .then(data => {
             usersData = data; // Store the data
-            displayUsers(usersData); // Initial display
         })
         .catch(error => console.error('Error loading the JSON file:', error));
 
     // Function to display users
     function displayUsers(users) {
-        const page_number = 1
-        const items_per_page = 10
-        const jsonDataDiv = document.getElementById("users_DB");
+        const jsonDataDiv = document.getElementById("data_field");
         jsonDataDiv.innerHTML = ''; // Clear existing content
 
         // Loop through each user and display the data
