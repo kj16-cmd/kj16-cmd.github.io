@@ -31,15 +31,7 @@
         })
         .catch(error => console.error('Error loading the JSON file:', error));
 
-    // Function to process the data (e.g., making links clickable)
-    function processData(users) {
-        return users.map(user => {
-            user.Info = user.Info.replace(/http:\/\/[^\s]+/g, function(url) {
-                return `<a href="${url}" target="_blank">${url}</a>`;
-            });
-            return user;
-        });
-    }
+
 
     // Function to display users
     function displayUsers(users) {
@@ -62,12 +54,7 @@
 
 
 
-	//"DateandTime":"",
-	//	"Source_IP":"",
-	//	"Destination_IP":"",
-	//	"Alert_type":"",
-	//	"Info":""
-
+	
     // Function to sort users by Name
     function sortBytime() {
         const sortedUsers = [...usersData].sort((a, b) => {
