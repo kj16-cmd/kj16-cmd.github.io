@@ -51,28 +51,40 @@ fetch('db/db.json')
 		// Check if both the username and password match
 			if (data[i].Username.toLowerCase() === Username && data[i].Password === Password) {
 				found = true;  // Set found to true if a match is found
-				userstatus = data[i].Status
+				userstatus = data[i].role
 				break;  // Exit the loop once a match is found
 		}
 	}
 
 		// After the loop, check if a match was found
-		if (found) {
-			console.log("Login successful!");
+	       if (found) {
+                console.log("Login successful!");
 
-			// Check the status and redirect the user
-		if (userstatus === 'db_engi') {
-				window.location.href = "db_engi_workspace.html"; // Redirect to the db_engi page
-		} else if (userstatus === 'soc_engi') {
-			window.location.href = "soc_engi_workspace.html"; // Redirect to the soc_engi page
-		} else {
-			alert("User not authorized to access any content");
-		}
-		} else {
-			console.log("Invalid username or password");
-			alert("Invalid username or password");
-		}
-		})
+                // Check the user role and redirect accordingly
+                if (userstatus === 'lawyer') {
+                    window.location.href = "lawyer.html"; // Redirect to lawyer page
+                } else if (userstatus === 'db_analyst') {
+                    window.location.href = "db_analyst.html"; // Redirect to db_analyst page
+                } else if (userstatus === 'customer_support') {
+                    window.location.href = "customer_support.html"; // Redirect to customer_support page
+                } else if (userstatus === 'accountant') {
+                    window.location.href = "accountant.html"; // Redirect to accountant page
+                } else if (userstatus === 'public_relations') {
+                    window.location.href = "public_relations.html"; // Redirect to public_relations page
+                } else if (userstatus === 'recruiter') {
+                    window.location.href = "recruiter.html"; // Redirect to recruiter page
+                } else if (userstatus === 'sales') {
+                    window.location.href = "sales.html"; // Redirect to sales page
+                } else if (userstatus === 'sec_analyst') {
+                    window.location.href = "sec_analyst.html"; // Redirect to sec_analyst page
+                } else if (userstatus === 'janitor') {
+                    window.location.href = "janitor.html"; // Redirect to janitor page
+                } else {
+                    alert("User role not recognized, no valid redirect available.");
+                }
+            } else {
+                console.log("Invalid username or password");
+                alert("Invalid username or password");
 		
 		
 	.catch(error => {
