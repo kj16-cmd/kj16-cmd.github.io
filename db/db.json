@@ -16,6 +16,184 @@
 		"role":"db_analyst"	
 	},
 	{
+		"Name":"Victoria Campbell",
+		"Username":"V.Campbell",
+		"password":"BlueBirdFlight",
+		"encryptedpassword":"UtneObzwFyboat",
+		"email":"V.Campbell@gmail.com",
+		"role":"customer_support"	
+	},
+	{
+		"Name":"Madison Cooper",
+		"Username":"M.Cooper",
+		"password":"BraveLionHeart",
+		"encryptedpassword":"UztvrEqhnUxikt",
+		"email":"M.Cooper@gmail.com",
+		"role":"customer_support"	
+	},
+	{
+		"Name":"Amelia Harris",
+		"Username":"A.Harris",
+		"password":"SwiftSilverFox",
+		"encryptedpassword":"LebfgLqevrkNhx",
+		"email":"A.Harris@gmail.com",
+		"role":"customer_support"	
+	},
+	{
+		"Name":"Samuel Brown",
+		"Username":"S.Brown",
+		"password":"CrispMorningAir",
+		"encryptedpassword":"VzbscFwknvgoTie",
+		"email":"S.Brown@gmail.com",
+		"role":"lawyer"	
+	},
+	{
+		"Name":"Mia Collins",
+		"Username":"M.Collins",
+		"password":"SparklingDiamondRing",
+		"encryptedpassword":"LxtrxeqggQbifoawZbnt",
+		"email":"M.Collins@gmail.com",
+		"role":"accountant"	
+	},
+	{
+		"Name":"Lily Scott",
+		"Username":"L.Scott",
+		"password":"FuzzyPenguinHug",
+		"encryptedpassword":"YcszlImgghbvAut",
+		"email":"L.Scott@gmail.com",
+		"role":"db_analyst"	
+	},
+	{
+		"Name":"Thomas Hall",
+		"Username":"T.Hall",
+		"password":"HappyPineTree",
+		"encryptedpassword":"AiiplIqgeGkmx",
+		"email":"T.Hall@gmail.com",
+		"role":"publi_relations"	
+	},
+	{
+		"Name":"Benjamin Allen",
+		"Username":"B.Allen",
+		"password":"GingerBreadHouse",
+		"encryptedpassword":"ZqggrkJkenwPhufx",
+		"email":"B.Allen@gmail.com",
+		"role":"public_relations"	
+	},
+	{
+		"Name":"Chloe Young",
+		"Username":"C.Young",
+		"password":"BlueBirdFlight",
+		"encryptedpassword":"UtneObzwFyboat",
+		"email":"C.Young@gmail.com",
+		"role":"recruiter"	
+	},
+	{
+		"Name":"Isabella Nelson",
+		"Username":"I.Nelson",
+		"password":"ThunderstormAlert",
+		"encryptedpassword":"MpnnqxzltbkuTlrkb",
+		"email":"random@gmail.com",
+		"role":"recruiter"	
+	},
+	{
+		"Name":"James Mitchell",
+		"Username":"J.Mitchell",
+		"password":"LaughingCloudsSky",
+		"encryptedpassword":"EingubvzCyhcwsFdg",
+		"email":"J.Mitchell@gmail.com",
+		"role":"db_analyst"	
+	},
+	{
+		"Name":"Jacob Perez",
+		"Username":"J.Perez",
+		"password":"ShinyRedCarpet",
+		"encryptedpassword":"LpbnlKmwCnkxxt",
+		"email":"random@gmail.com",
+		"role":"db_analyst"	
+	},
+	{
+		"Name":"Ava Stewart",
+		"Username":"A.Stewart",
+		"password":"BreezyOceanWaves",
+		"encryptedpassword":"UzxemrWvengEtvrl",
+		"email":"A.Stewart@gmail.com",
+		"role":"sales"	
+	},
+	{
+		"Name":"Sophia Martin",
+		"Username":"S.Martin",
+		"password":"QuietMoonNight",
+		"encryptedpassword":"JcbegFwhnAboat",
+		"email":"S.Martin@gmail.com",
+		"role":"sales"	
+	},
+	{
+		"Name":"Chloe Reed",
+		"Username":"C.Reed",
+		"password":"HappyPurpleRain",
+		"encryptedpassword":"AiiplIckpyxZtia",
+		"email":"C.Reed@gmail.com",
+		"role":"sales"	
+	},
+	{
+		"Name":"Ella Rivera",
+		"Username":"E.Rivera",
+		"password":"SoftRedCarpet",
+		"encryptedpassword":"LwytExlVaeimm",
+		"email":"E.Rivera@gmail.com",
+		"role":"sales"	
+	},
+	{
+		"Name":"Scarlett Brooks",
+		"Username":"S.Brooks",
+		"password":"CloudySunsetSky",
+		"encryptedpassword":"VthuqrAnnfxbLkl",
+		"email":"S.Brooks@gmail.com",
+		"role":"lawyer"	
+	},
+
+	{
+		"Name":"Mia Ramirez",
+		"Username":"M.Ramirez",
+		"password":"RusticWoodCabin",
+		"encryptedpassword":"KcltvvEhoqViuia",
+		"email":"M.Ramirez@gmail.com",
+		"role":"lawyer"	
+	},
+	{
+		"Name":"Emily Bennett",
+		"Username":"E.Bennett",
+		"password":"ShimmeringGoldenSand",
+		"encryptedpassword":"LpbmzxzbntZwedrgAtnq",
+		"email":"E.Bennett@gmail.com",
+		"role":"recruiter"	
+	},
+	{
+		"Name":"Lily Peterson",
+		"Username":"L.Peterson",
+		"password":"WildFlowerBloom",
+		"encryptedpassword":"PqedSewpeeUthoz",
+		"email":"L.Peterson@gmail.com",
+		"role":"public_relations"	
+	},
+	{
+		"Name":"George Anderson",
+		"Username":"G.Anderson",
+		"password":"WildBerryBush",
+		"encryptedpassword":"PqedOxzkyOnaa",
+		"email":"G.Anderson@gmail.com",
+		"role":"sales"	
+	},
+	{
+		"Name":"Ruby Cooper",
+		"Username":"R.Cooper",
+		"password":"CrispAutumnBreeze",
+		"encryptedpassword":"VzbscTcmuzgJkersm",
+		"email":"R.Cooper@gmail.com",
+		"role":"recruiter"	
+	},
+	
+	{
 		"Name":"Richard Lee",
 		"Username":"R.Lee",
 		"password":"MagicWand2023",
