@@ -21,3 +21,58 @@
 body {
   background-color: #808080;
 }
+
+
+/* this is kierans additions just checking to see if some code works for the database entries to have boxes around them*/
+/* Add some basic styling for the container (data_field) */
+#data_field {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Style for each user entry */
+.user-info {
+    border: 2px solid #333;  /* Border around each user entry */
+    padding: 15px;  /* Add padding inside each entry */
+    margin-bottom: 15px;  /* Add some space between entries */
+    border-radius: 8px;  /* Optional: Adds rounded corners */
+    background-color: #f9f9f9;  /* Light background color */
+}
+
+/* Style for each individual span inside user-info */
+.user-info span {
+    display: block;  /* Make each span appear on its own line */
+    margin-bottom: 5px;  /* Space between the lines of user data */
+}
+
+/* Optional: You can also add some hover effect for the user-info div */
+.user-info:hover {
+    background-color: #e6e6e6;  /* Change background color when hovering */
+    cursor: pointer;  /* Make the cursor pointer to indicate interactiveness */
+}
+
+/* Pagination button styling */
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #4CAF50;  /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#pagination button:disabled {
+    background-color: #ccc;  /* Disabled button background color */
+    cursor: not-allowed;
+}
+
+#pagination button:hover {
+    background-color: #45a049;  /* Slightly darker green on hover */
+}
