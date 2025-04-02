@@ -27,6 +27,7 @@
         .then(response => response.json())
         .then(data => {
             usersData = data; // Store the data
+            displayUsers(usersData);
         })
         .catch(error => console.error('Error loading the JSON file:', error));
 
