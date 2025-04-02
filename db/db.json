@@ -2,7 +2,7 @@
 	{
 		"Name":"Mia Thompson",
 		"Username":"M.Thompson",
-		"password":"HappySunshine99",
+		"Password":"HappySunshine99",
 		"encryptedpassword":"AiiplLcgsubvx99",
 		"email":"M.Thompson@gmail.com",
 		"role":"lawyer"	
@@ -10,7 +10,7 @@
 	{
 		"Name":"john carter",
 		"Username":"J.Carter",
-		"password":"Pickle1979",
+		"Password":"Pickle1979",
 		"encryptedpassword":"Iqvkyx1979",
 		"email":"J.Carter@gmail.com",
 		"role":"db_analyst"	
@@ -18,7 +18,7 @@
 	{
 		"Name":"Victoria Campbell",
 		"Username":"V.Campbell",
-		"password":"BlueBirdFlight",
+		"Password":"BlueBirdFlight",
 		"encryptedpassword":"UtneObzwFyboat",
 		"email":"V.Campbell@gmail.com",
 		"role":"customer_support"	
@@ -26,7 +26,7 @@
 	{
 		"Name":"Madison Cooper",
 		"Username":"M.Cooper",
-		"password":"BraveLionHeart",
+		"Password":"BraveLionHeart",
 		"encryptedpassword":"UztvrEqhnUxikt",
 		"email":"M.Cooper@gmail.com",
 		"role":"customer_support"	
@@ -34,7 +34,7 @@
 	{
 		"Name":"Amelia Harris",
 		"Username":"A.Harris",
-		"password":"SwiftSilverFox",
+		"Password":"SwiftSilverFox",
 		"encryptedpassword":"LebfgLqevrkNhx",
 		"email":"A.Harris@gmail.com",
 		"role":"customer_support"	
@@ -42,7 +42,7 @@
 	{
 		"Name":"Samuel Brown",
 		"Username":"S.Brown",
-		"password":"CrispMorningAir",
+		"Password":"CrispMorningAir",
 		"encryptedpassword":"VzbscFwknvgoTie",
 		"email":"S.Brown@gmail.com",
 		"role":"lawyer"	
@@ -50,7 +50,7 @@
 	{
 		"Name":"Mia Collins",
 		"Username":"M.Collins",
-		"password":"SparklingDiamondRing",
+		"Password":"SparklingDiamondRing",
 		"encryptedpassword":"LxtrxeqggQbifoawZbnt",
 		"email":"M.Collins@gmail.com",
 		"role":"accountant"	
@@ -58,7 +58,7 @@
 	{
 		"Name":"Lily Scott",
 		"Username":"L.Scott",
-		"password":"FuzzyPenguinHug",
+		"Password":"FuzzyPenguinHug",
 		"encryptedpassword":"YcszlImgghbvAut",
 		"email":"L.Scott@gmail.com",
 		"role":"db_analyst"	
@@ -66,7 +66,7 @@
 	{
 		"Name":"Thomas Hall",
 		"Username":"T.Hall",
-		"password":"HappyPineTree",
+		"Password":"HappyPineTree",
 		"encryptedpassword":"AiiplIqgeGkmx",
 		"email":"T.Hall@gmail.com",
 		"role":"publi_relations"	
@@ -74,7 +74,7 @@
 	{
 		"Name":"Benjamin Allen",
 		"Username":"B.Allen",
-		"password":"GingerBreadHouse",
+		"Password":"GingerBreadHouse",
 		"encryptedpassword":"ZqggrkJkenwPhufx",
 		"email":"B.Allen@gmail.com",
 		"role":"public_relations"	
@@ -82,7 +82,7 @@
 	{
 		"Name":"Chloe Young",
 		"Username":"C.Young",
-		"password":"BlueBirdFlight",
+		"Password":"BlueBirdFlight",
 		"encryptedpassword":"UtneObzwFyboat",
 		"email":"C.Young@gmail.com",
 		"role":"recruiter"	
@@ -90,7 +90,7 @@
 	{
 		"Name":"Isabella Nelson",
 		"Username":"I.Nelson",
-		"password":"ThunderstormAlert",
+		"Password":"ThunderstormAlert",
 		"encryptedpassword":"MpnnqxzltbkuTlrkb",
 		"email":"I.Nelson@gmail.com",
 		"role":"recruiter"	
@@ -98,7 +98,7 @@
 	{
 		"Name":"James Mitchell",
 		"Username":"J.Mitchell",
-		"password":"LaughingCloudsSky",
+		"Password":"LaughingCloudsSky",
 		"encryptedpassword":"EingubvzCyhcwsFdg",
 		"email":"J.Mitchell@gmail.com",
 		"role":"db_analyst"	
@@ -106,7 +106,7 @@
 	{
 		"Name":"Jacob Perez",
 		"Username":"J.Perez",
-		"password":"ShinyRedCarpet",
+		"Password":"ShinyRedCarpet",
 		"encryptedpassword":"LpbnlKmwCnkxxt",
 		"email":"J.Perez@gmail.com",
 		"role":"db_analyst"	
@@ -114,7 +114,7 @@
 	{
 		"Name":"Ava Stewart",
 		"Username":"A.Stewart",
-		"password":"BreezyOceanWaves",
+		"Password":"BreezyOceanWaves",
 		"encryptedpassword":"UzxemrWvengEtvrl",
 		"email":"A.Stewart@gmail.com",
 		"role":"sales"	
@@ -122,7 +122,7 @@
 	{
 		"Name":"Sophia Martin",
 		"Username":"S.Martin",
-		"password":"QuietMoonNight",
+		"Password":"QuietMoonNight",
 		"encryptedpassword":"JcbegFwhnAboat",
 		"email":"S.Martin@gmail.com",
 		"role":"sales"	
@@ -130,7 +130,7 @@
 	{
 		"Name":"Chloe Reed",
 		"Username":"C.Reed",
-		"password":"HappyPurpleRain",
+		"Password":"HappyPurpleRain",
 		"encryptedpassword":"AiiplIckpyxZtia",
 		"email":"C.Reed@gmail.com",
 		"role":"sales"	
@@ -138,7 +138,7 @@
 	{
 		"Name":"Ella Rivera",
 		"Username":"E.Rivera",
-		"password":"SoftRedCarpet",
+		"Password":"SoftRedCarpet",
 		"encryptedpassword":"LwytExlVaeimm",
 		"email":"E.Rivera@gmail.com",
 		"role":"sales"	
@@ -146,7 +146,7 @@
 	{
 		"Name":"Scarlett Brooks",
 		"Username":"S.Brooks",
-		"password":"CloudySunsetSky",
+		"Password":"CloudySunsetSky",
 		"encryptedpassword":"VthuqrAnnfxbLkl",
 		"email":"S.Brooks@gmail.com",
 		"role":"lawyer"	
@@ -155,7 +155,7 @@
 	{
 		"Name":"Mia Ramirez",
 		"Username":"M.Ramirez",
-		"password":"RusticWoodCabin",
+		"Password":"RusticWoodCabin",
 		"encryptedpassword":"KcltvvEhoqViuia",
 		"email":"M.Ramirez@gmail.com",
 		"role":"lawyer"	
@@ -163,7 +163,7 @@
 	{
 		"Name":"Emily Bennett",
 		"Username":"E.Bennett",
-		"password":"ShimmeringGoldenSand",
+		"Password":"ShimmeringGoldenSand",
 		"encryptedpassword":"LpbmzxzbntZwedrgAtnq",
 		"email":"E.Bennett@gmail.com",
 		"role":"recruiter"	
@@ -171,7 +171,7 @@
 	{
 		"Name":"Lily Peterson",
 		"Username":"L.Peterson",
-		"password":"WildFlowerBloom",
+		"Password":"WildFlowerBloom",
 		"encryptedpassword":"PqedSewpeeUthoz",
 		"email":"L.Peterson@gmail.com",
 		"role":"public_relations"	
@@ -179,7 +179,7 @@
 	{
 		"Name":"George Anderson",
 		"Username":"G.Anderson",
-		"password":"WildBerryBush",
+		"Password":"WildBerryBush",
 		"encryptedpassword":"PqedOxzkyOnaa",
 		"email":"G.Anderson@gmail.com",
 		"role":"sales"	
@@ -187,7 +187,7 @@
 	{
 		"Name":"Ruby Cooper",
 		"Username":"R.Cooper",
-		"password":"CrispAutumnBreeze",
+		"Password":"CrispAutumnBreeze",
 		"encryptedpassword":"VzbscTcmuzgJkersm",
 		"email":"R.Cooper@gmail.com",
 		"role":"recruiter"	
@@ -196,7 +196,7 @@
 	{
 		"Name":"Richard Lee",
 		"Username":"R.Lee",
-		"password":"MagicWand2023",
+		"Password":"MagicWand2023",
 		"encryptedpassword":"FizipPigd2023",
 		"email":"R.Lee@gmail.com",
 		"role":"Public_relations"	
@@ -204,7 +204,7 @@
 	{
 		"Name":"Ella King",
 		"Username":"E.King",
-		"password":"LuckyCharm77",
+		"Password":"LuckyCharm77",
 		"encryptedpassword":"EcvklVptrz77",
 		"email":"E.King@gmail.com",
 		"role":"lawyer"	
@@ -212,7 +212,7 @@
 	{
 		"Name":"edmund black",
 		"Username":"E.Black",
-		"password":"sandwich",
+		"Password":"sandwich",
 		"encryptedpassword":"ligdjbka",
 		"email":"E.Black@gmail.com",
 		"role":"sec_analyst"	
@@ -220,7 +220,7 @@
 	{
 		"Name":"Matthew White",
 		"Username":"M.White",
-		"password":"SapphireSky7",
+		"Password":"SapphireSky7",
 		"encryptedpassword":"LiipubzxSxr7",
 		"email":"M.White@gmail.com",
 		"role":"accountant"	
@@ -228,7 +228,7 @@
 	{
 		"Name":"Benjamin Mitchell",
 		"Username":"B.Mitchell",
-		"password":"CrystalLake89",
+		"Password":"CrystalLake89",
 		"encryptedpassword":"VzrsgttEaxx89",
 		"email":"B.Mitchell@gmail.com",
 		"role":"accountant"	
@@ -236,7 +236,7 @@
 	{
 		"Name":"Joseph Hall",
 		"Username":"J.Hall",
-		"password":"FastRunner2022",
+		"Password":"FastRunner2022",
 		"encryptedpassword":"YiltEnvgee2022",
 		"email":"J.Hall@gmail.com",
 		"role":"db_analyst"	
@@ -244,7 +244,7 @@
 	{
 		"Name":"Amelia Gonzalez",
 		"Username":"A.Gonzalez",
-		"password":"LemonTree89",
+		"Password":"LemonTree89",
 		"encryptedpassword":"EmfoaMzxe89",
 		"email":"A.Gonzalez@gmail.com",
 		"role":"sec_analyst"	
@@ -252,7 +252,7 @@
 	{
 		"Name":"Henry Wright",
 		"Username":"H.Wright",
-		"password":"GoldenFlower88",
+		"Password":"GoldenFlower88",
 		"encryptedpassword":"ZwedrgNeojxz88",
 		"email":"H.Wright@gmail.com",
 		"role":"public_relation"	
@@ -260,7 +260,7 @@
 	{
 		"Name":"George Baker",
 		"Username":"G.Baker",
-		"password":"BigDreams2021",
+		"Password":"BigDreams2021",
 		"encryptedpassword":"UqzDexifs2021",
 		"email":"G.Baker@gmail.com",
 		"role":"lawyer"	
@@ -268,7 +268,7 @@
 	{
 		"Name":"Dan Thawley",
 		"Username":"D.Thawley",
-		"password":"munching",
+		"Password":"munching",
 		"encryptedpassword":"fcgcubvz",
 		"email":"D.Thawley@gmail.com",
 		"role":"janitor"	
@@ -276,7 +276,7 @@
 	{
 		"Name":"David Simon",
 		"Username":"D.Simon",
-		"password":"Supercalifragilisticexpialidocious",
+		"Password":"Supercalifragilisticexpialidocious",
 		"encryptedpassword":"Lcieevieiskiziybamipxfiineqwopbwns",
 		"email":"D.Simon@gmail.com",
 		"role":"janitor"	
@@ -284,7 +284,7 @@
 	{
 		"Name":"Will Beech",
 		"Username":"W.Beech",
-		"password":"password",
+		"Password":"Password",
 		"encryptedpassword":"iilsjhzw",
 		"email":"W.Beech@gmail.com",
 		"role":"janitor"	
@@ -292,7 +292,7 @@
 	{
 		"Name":"Kieran Jordan",
 		"Username":"K.Jordan",
-		"password":"htmldev",
+		"Password":"htmldev",
 		"encryptedpassword":"abflqxd",
 		"email":"K.Jordan@gmail.com",
 		"role":"janitor"	
@@ -300,7 +300,7 @@
 	{
 		"Name":"Gianni King",
 		"Username":"G.King",
-		"password":"dogmeat17",
+		"Password":"dogmeat17",
 		"encryptedpassword":"wwzmrtb17",
 		"email":"G.King@gmail.com",
 		"role":"janitor"	
