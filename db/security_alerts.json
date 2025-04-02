@@ -25,7 +25,7 @@
 		"Source_IP":"10.10.10.10",
 		"Destination_IP":"127.0.0.1",
 		"Alert_type":"",
-		"Info":"Maleware detected from <a href="busterping.html"> investigation of busterping website</a>"
+		"Info":"Maleware detected from <a href=\"busterping.html\"> investigation of busterping website</a>"
 
 	},
 	{
