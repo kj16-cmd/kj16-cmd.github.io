@@ -26,7 +26,6 @@
         .then(response => response.json())
         .then(data => {
             usersData = data; // Store the data
-            usersData = processData(usersData); // Process data once when loaded
             displayUsers(usersData); // Initial display
         })
         .catch(error => console.error('Error loading the JSON file:', error));
