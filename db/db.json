@@ -3,7 +3,7 @@
 		"Name":"Mia Thompson",
 		"Username":"M.Thompson",
 		"password":"HappySunshine99",
-		"encrytedpassword":"AiiplLcgsubvx99",
+		"encryptedpassword":"AiiplLcgsubvx99",
 		"email":"M.Thompson@gmail.com",
 		"role":"lawyer"	
 	},
@@ -11,7 +11,7 @@
 		"Name":"john carter",
 		"Username":"J.Carter",
 		"password":"Pickle1979",
-		"encrytedpassword":"Iqvkyx1979",
+		"encryptedpassword":"Iqvkyx1979",
 		"email":"J.Carter@gmail.com",
 		"role":"db_analyst"	
 	},
@@ -19,7 +19,7 @@
 		"Name":"Richard Lee",
 		"Username":"R.Lee",
 		"password":"MagicWand2023",
-		"encrytedpassword":"FizipPigd2023",
+		"encryptedpassword":"FizipPigd2023",
 		"email":"R.Lee@gmail.com",
 		"role":"Public_relations"	
 	},
@@ -27,7 +27,7 @@
 		"Name":"Ella King",
 		"Username":"E.King",
 		"password":"LuckyCharm77",
-		"encrytedpassword":"EcvklVptrz77",
+		"encryptedpassword":"EcvklVptrz77",
 		"email":"E.King@gmail.com",
 		"role":"lawyer"	
 	},
@@ -35,7 +35,7 @@
 		"Name":"edmund black",
 		"Username":"edhead",
 		"password":"sandwich",
-		"encrytedpassword":"",
+		"encryptedpassword":"",
 		"email":"edhead@gmail.com",
 		"role":"sec_analyst"	
 	},
@@ -43,7 +43,7 @@
 		"Name":"Matthew White",
 		"Username":"M.White",
 		"password":"ciphertext",
-		"encrytedpassword":"",
+		"encryptedpassword":"",
 		"email":"M.White@gmail.com",
 		"role":"accountant"	
 	},
@@ -51,7 +51,7 @@
 		"Name":"Benjamin Mitchell",
 		"Username":"B.Mitchell",
 		"password":"CrystalLake89",
-		"encrytedpassword":"VzrsgttEaxx89",
+		"encryptedpassword":"VzrsgttEaxx89",
 		"email":"B.Mitchell@gmail.com",
 		"role":"accountant"	
 	},
@@ -59,7 +59,7 @@
 		"Name":"Joseph Hall",
 		"Username":"J.Hall",
 		"password":"FastRunner2022",
-		"encrytedpassword":"YiltEnvgee2022",
+		"encryptedpassword":"YiltEnvgee2022",
 		"email":"J.Hall@gmail.com",
 		"role":"db_analyst"	
 	},
@@ -67,7 +67,7 @@
 		"Name":"Amelia Gonzalez",
 		"Username":"A.Gonzalez",
 		"password":"LemonTree89",
-		"encrytedpassword":"EmfoaMzxe89",
+		"encryptedpassword":"EmfoaMzxe89",
 		"email":"A.Gonzalez@gmail.com",
 		"role":"sec_analyst"	
 	},
@@ -75,7 +75,7 @@
 		"Name":"Henry Wright",
 		"Username":"H.Wright",
 		"password":"GoldenFlower88",
-		"encrytedpassword":"ZwedrgNeojxz88",
+		"encryptedpassword":"ZwedrgNeojxz88",
 		"email":"H.Wright@gmail.com",
 		"role":"public_relation"	
 	},
@@ -83,7 +83,7 @@
 		"Name":"George Baker",
 		"Username":"G.Baker",
 		"password":"BigDreams2021",
-		"encrytedpassword":"BigDreams2021",
+		"encryptedpassword":"BigDreams2021",
 		"email":"G.Baker@gmail.com",
 		"role":"lawer"	
 	},
@@ -91,7 +91,7 @@
 		"Name":"Dan Thawley",
 		"Username":"D.Thawley",
 		"password":"munching",
-		"encrytedpassword":"fcgcubvz",
+		"encryptedpassword":"fcgcubvz",
 		"email":"D.Thawley@gmail.com",
 		"role":"janitor"	
 	},
@@ -99,7 +99,7 @@
 		"Name":"David Simon",
 		"Username":"D.Simon",
 		"password":"Supercalifragilisticexpialidocious",
-		"encrytedpassword":"Lcieevieiskiziybamipxfiineqwopbwns",
+		"encryptedpassword":"Lcieevieiskiziybamipxfiineqwopbwns",
 		"email":"D.Simon@gmail.com",
 		"role":"janitor"	
 	},
@@ -107,7 +107,7 @@
 		"Name":"Will Beech",
 		"Username":"W.Beech",
 		"password":"password",
-		"encrytedpassword":"iilsjhzw",
+		"encryptedpassword":"iilsjhzw",
 		"email":"W.Beech@gmail.com",
 		"role":"janitor"	
 	},
@@ -115,7 +115,7 @@
 		"Name":"Kieran Jordan",
 		"Username":"K.Jordan",
 		"password":"htmldev",
-		"encrytedpassword":"abflqxd",
+		"encryptedpassword":"abflqxd",
 		"email":"K.Jordan@gmail.com",
 		"role":"janitor"	
 	},
@@ -123,7 +123,7 @@
 		"Name":"Gianni King",
 		"Username":"G.King",
 		"password":"dogmeat17",
-		"encrytedpassword":"wwzmrtb17",
+		"encryptedpassword":"wwzmrtb17",
 		"email":"G.King@gmail.com",
 		"role":"janitor"	
 	}
