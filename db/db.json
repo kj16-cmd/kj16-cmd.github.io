@@ -1,107 +1,130 @@
 [
 	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
+		"Name":"Mia Thompson",
+		"Username":"M.Thompson",
+		"password":"HappySunshine99",
+		"encryted-password":"AiiplLcgsubvx99",
+		"email":"M.Thompson@gmail.com",
+		"role":"lawyer"	
+	},
+	{
+		"Name":"john carter",
+		"Username":"J.Carter",
+		"password":"Pickle1979",
+		"encryted-password":"Iqvkyx1979",
+		"email":"J.Carter@gmail.com",
 		"role":"db_analyst"	
 	},
 	{
-		"Name":"john",
-		"Username":"john",
-		"password":"johnspassword",
-		"email":"john@gmail.com",
-		"role":"db_analyst"	
+		"Name":"Richard Lee",
+		"Username":"R.Lee",
+		"password":"MagicWand2023",
+		"encryted-password":"FizipPigd2023",
+		"email":"R.Lee@gmail.com",
+		"role":"Public_relations"	
 	},
 	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"db_analyst"	
+		"Name":"Ella King",
+		"Username":"E.King",
+		"password":"LuckyCharm77",
+		"encryted-password":"EcvklVptrz77",
+		"email":"E.King@gmail.com",
+		"role":"lawyer"	
 	},
 	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"db_analyst"	
-	},
-	{
-		"Name":"edmund",
+		"Name":"edmund black",
 		"Username":"edhead",
 		"password":"sandwich",
+		"encryted-password":"",
 		"email":"edhead@gmail.com",
 		"role":"sec_analyst"	
 	},
 	{
-		"Name":"a random user 1",
-		"Username":"rand1234",
+		"Name":"Matthew White",
+		"Username":"M.White",
 		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
+		"encryted-password":"",
+		"email":"M.White@gmail.com",
+		"role":"accountant"	
+	},
+	{
+		"Name":"Benjamin Mitchell",
+		"Username":"B.Mitchell",
+		"password":"CrystalLake89",
+		"encryted-password":"VzrsgttEaxx89",
+		"email":"B.Mitchell@gmail.com",
+		"role":"accountant"	
+	},
+	{
+		"Name":"Joseph Hall",
+		"Username":"J.Hall",
+		"password":"FastRunner2022",
+		"encryted-password":"YiltEnvgee2022",
+		"email":"J.Hall@gmail.com",
 		"role":"db_analyst"	
 	},
 	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"Z db_analyst"	
+		"Name":"Amelia Gonzalez",
+		"Username":"A.Gonzalez",
+		"password":"LemonTree89",
+		"encryted-password":"EmfoaMzxe89",
+		"email":"A.Gonzalez@gmail.com",
+		"role":"sec_analyst"	
 	},
 	{
-		"Name":"z random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"db_analyst"	
+		"Name":"Henry Wright",
+		"Username":"H.Wright",
+		"password":"GoldenFlower88",
+		"encryted-password":"ZwedrgNeojxz88",
+		"email":"H.Wright@gmail.com",
+		"role":"public_relation"	
 	},
 	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"db_analyst"	
+		"Name":"George Baker",
+		"Username":"G.Baker",
+		"password":"BigDreams2021",
+		"encryted-password":"BigDreams2021",
+		"email":"G.Baker@gmail.com",
+		"role":"lawer"	
 	},
 	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"A db_analyst"	
+		"Name":"Dan Thwawley",
+		"Username":"D.Thwawley",
+		"password":"munching",
+		"encryted-password":"fcgcubvz",
+		"email":"D.Thwawley@gmail.com",
+		"role":"janitor"	
 	},
 	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"db_analyst"	
+		"Name":"David Simon",
+		"Username":"D.Simon",
+		"password":"Supercalifragilisticexpialidocious",
+		"encryted-password":"Lcieevieiskiziybamipxfiineqwopbwns",
+		"email":"D.Simon@gmail.com",
+		"role":"janitor"	
 	},
 	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"db_analyst"	
-	},
-	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"db_analyst"	
-	},
-	{
-		"Name":"random user 1",
-		"Username":"rand1234",
-		"password":"ciphertext",
-		"email":"randomuser1@gmail.com",
-		"role":"db_analyst"	
-	},
-	{
-		"Name":"next target",
-		"Username":"rand1234",
+		"Name":"Will Beech",
+		"Username":"W.Beech",
 		"password":"password",
-		"email":"nexttarget@gmail.com",
-		"role":"soc_analyst"	
+		"encryted-password":"iilsjhzw",
+		"email":"W.Beech@gmail.com",
+		"role":"janitor"	
+	},
+	{
+		"Name":"Kieran Jordan",
+		"Username":"K.Jordan",
+		"password":"htmldev",
+		"encryted-password":"abflqxd",
+		"email":"K.Jordan@gmail.com",
+		"role":"janitor"	
+	},
+	{
+		"Name":"Gianni King",
+		"Username":"G.King",
+		"password":"dogmeat17",
+		"encryted-password":"wwzmrtb17",
+		"email":"G.King@gmail.com",
+		"role":"janitor"	
 	}
 ]
