@@ -35,15 +35,15 @@
 		"Name":"edmund black",
 		"Username":"edhead",
 		"password":"sandwich",
-		"encryptedpassword":"",
-		"email":"edhead@gmail.com",
+		"encryptedpassword":"ligdjbka",
+		"email":"E.Black@gmail.com",
 		"role":"sec_analyst"	
 	},
 	{
 		"Name":"Matthew White",
 		"Username":"M.White",
-		"password":"ciphertext",
-		"encryptedpassword":"",
+		"password":"SapphireSky7",
+		"encryptedpassword":"LiipubzxSxr7",
 		"email":"M.White@gmail.com",
 		"role":"accountant"	
 	},
@@ -83,7 +83,7 @@
 		"Name":"George Baker",
 		"Username":"G.Baker",
 		"password":"BigDreams2021",
-		"encryptedpassword":"BigDreams2021",
+		"encryptedpassword":"UqzDexifs2021",
 		"email":"G.Baker@gmail.com",
 		"role":"lawer"	
 	},
