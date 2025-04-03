@@ -9,14 +9,16 @@
   <!-- Applying .header class to a header element -->
   <div class="header">
     <h1>Security Alerts Below</h1>
-    <button onclick="window.history.back()">Back</button>
   </div>
   <!-- Container div with the 'center-both' class -->
   <div class="center-both">
     <!-- Content to center inside the 'center-text' div -->
     <div class="center-text">
-<button id="prevPage" onclick="prevPage()">Previous</button>
-<button id="nextPage" onclick="nextPage()">Next</button>
+<button onclick="window.history.back()">Back</button>
+<div id="pagination">
+    <button id="prevPage" onclick="prevPage()">Previous</button>
+    <button id="nextPage" onclick="nextPage()">Next</button>
+</div>
   
 <div id="data_field">
 <script>
