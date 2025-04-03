@@ -19,62 +19,81 @@
   
 <div id="data_fields">
 <script>
+   <script>
     let usersData = []; // This will store the fetched JSON data
+    let currentPage = 1; // Track current page for pagination
+    const entriesPerPage = 10; // Number of entries to show per page
 
     // Fetch the data from the JSON file
-    fetch('/db/investigation.json?')
+    fetch('/db/db.json')
         .then(response => response.json())
         .then(data => {
             usersData = data; // Store the data
-            displayUsers(usersData); // Initial display
+            displayUsers(usersData); // Initially display the users for the first page
         })
         .catch(error => console.error('Error loading the JSON file:', error));
 
-
-
-    // Function to display users
+    // Function to display users for the current page
     function displayUsers(users) {
-        const jsonDataDiv = document.getElementById("data_fields");
+        const jsonDataDiv = document.getElementById("data_field");
         jsonDataDiv.innerHTML = ''; // Clear existing content
 
-        // Loop through each user and display the data
-        users.forEach(user => {
+        // Calculate start and end index based on current page
+        const startIndex = (currentPage - 1) * entriesPerPage;
+        const endIndex = startIndex + entriesPerPage;
+
+        // Slice the data array to get only the entries for the current page
+        const pageData = users.slice(startIndex, endIndex);
+
+        // Loop through the pageData array and display each user
+        pageData.forEach(user => {
             jsonDataDiv.innerHTML += `
                 <div class="user-info">
-                    <span>Investigation name>> ${user.investigation_name} | </span>
-                    <span>Date Started >> ${user.date_started} | </span>
-                    <span>Status >> ${user.status} | </span>
-                    <span>Lead Investigator >> ${user.lead_investigator} | </span>
-                    <span>Attack Type >> ${user.attack_type} | </span>
-		    <span>Priority >> ${user.priority} | </span>
-     		    <span>Description >> ${user.description} | </span>
-      
+                    <span>Name: ${user.Name}</span>
+                    <span>Username: ${user.Username}</span>
+                    <span>Password: ${user.encryptedpassword}</span>
+                    <span>Email: ${user.email}</span>
+                    <span>Role: ${user.role}</span>
                 </div>
             `;
         });
+
+        // Update pagination buttons
+        updatePaginationButtons(users.length);
     }
 
+    // Function to update the pagination buttons
+    function updatePaginationButtons(totalEntries) {
+        const totalPages = Math.ceil(totalEntries / entriesPerPage);
 
+        const prevButton = document.getElementById('prevPage');
+        const nextButton = document.getElementById('nextPage');
 
-	
-    // Function to sort users by Name
-    function sortBytime() {
-        const sortedUsers = [...usersData].sort((a, b) => {
-            if (a.DateandTime < b.DateandTime) return -1;
-            if (a.DateandTime > b.DateandTime) return 1;
-            return 0;
-        });
-        displayUsers(sortedUsers); // Update the display with sorted data
+        // Disable the "Previous" button if we're on the first page
+        if (currentPage === 1) {
+            prevButton.disabled = true;
+        } else {
+            prevButton.disabled = false;
+        }
+
+        // Disable the "Next" button if we're on the last page
+        if (currentPage === totalPages) {
+            nextButton.disabled = true;
+        } else {
+            nextButton.disabled = false;
+        }
     }
 
-    // Function to sort users by Role
-    function sortByinfo() {
-        const sortedUsers = [...usersData].sort((a, b) => {
-            if (a.info < b.info) return -1;
-            if (a.info > b.info) return 1;
-            return 0;
-        });
-        displayUsers(sortedUsers); // Update the display with sorted data
+    // Function to go to the next page
+    function nextPage() {
+        currentPage++;
+        displayUsers(usersData); // Re-display users for the next page
+    }
+
+    // Function to go to the previous page
+    function prevPage() {
+        currentPage--;
+        displayUsers(usersData); // Re-display users for the previous page
     }
 </script>
 </div>
