@@ -48,11 +48,13 @@
         pageData.forEach(user => {
             jsonDataDiv.innerHTML += `
                 <div class="user-info">
-                    <span>Name: ${user.Name}</span>
-                    <span>Username: ${user.Username}</span>
-                    <span>Password: ${user.encryptedpassword}</span>
-                    <span>Email: ${user.email}</span>
-                    <span>Role: ${user.role}</span>
+                    <span>Investigator Name: ${user.investigation_name}</span>
+                    <span>Date Started: ${user.date_started}</span>
+                    <span>Status: ${user.status}</span>
+                    <span>Lead Investigator: ${user.lead_investigator}</span>
+                    <span>Attack Type: ${user.attack_type}</span>
+                    <span>Priority ${user.priority}</span>
+                    <span>Description: ${user.description}</span>
                 </div>
             `;
         });
