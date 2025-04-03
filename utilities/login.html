@@ -26,8 +26,8 @@
 
 </form>
 
-<p><a href="db_analyst.html">database engineering</a></p> 
-<p><a href="sec_analyst.html">security analyst</a></p> 
+<p><a href="/workspaces/db_analyst.html">database engineering</a></p> 
+<p><a href="/workspaces/sec_analyst.html">security analyst</a></p> 
 
 
 
@@ -36,7 +36,7 @@
       const Username = document.getElementById("Username").value.trim().toLowerCase(); 
       const Password = document.getElementById("Password").value.trim();
       
-      fetch('db/db.json') 
+      fetch('/db/db.json') 
         .then(response => {
           if (!response.ok) {
             throw new Error("Network response was not ok");
@@ -63,23 +63,23 @@
 
             // Check the user role and redirect accordingly
             if (userstatus === 'lawyer') {
-              window.location.href = "workspaces/lawyer.html"; // Redirect to lawyer page
+              window.location.href = "/workspaces/lawyer.html"; // Redirect to lawyer page
             } else if (userstatus === 'db_analyst') {
-              window.location.href = "workspaces/db_analyst.html"; // Redirect to db_analyst page
+              window.location.href = "/workspaces/db_analyst.html"; // Redirect to db_analyst page
             } else if (userstatus === 'customer_support') {
-              window.location.href = "workspaces/customer_support.html"; // Redirect to customer_support page
+              window.location.href = "/workspaces/customer_support.html"; // Redirect to customer_support page
             } else if (userstatus === 'accountant') {
-              window.location.href = "workspaces/accountant.html"; // Redirect to accountant page
+              window.location.href = "/workspaces/accountant.html"; // Redirect to accountant page
             } else if (userstatus === 'public_relations') {
-              window.location.href = "workspaces/public_relations.html"; // Redirect to public_relations page
+              window.location.href = "/workspaces/public_relations.html"; // Redirect to public_relations page
             } else if (userstatus === 'recruiter') {
-              window.location.href = "workspaces/recruiter.html"; // Redirect to recruiter page
+              window.location.href = "/workspaces/recruiter.html"; // Redirect to recruiter page
             } else if (userstatus === 'sales') {
-              window.location.href = "workspaces/sales.html"; // Redirect to sales page
+              window.location.href = "/workspaces/sales.html"; // Redirect to sales page
             } else if (userstatus === 'sec_analyst') {
-              window.location.href = "workspaces/sec_analyst.html"; // Redirect to sec_analyst page
+              window.location.href = "/workspaces/sec_analyst.html"; // Redirect to sec_analyst page
             } else if (userstatus === 'janitor') {
-              window.location.href = "workspaces/janitor.html"; // Redirect to janitor page
+              window.location.href = "/workspaces/janitor.html"; // Redirect to janitor page
             } else {
               alert("User role not recognized, no valid redirect available.");
             }
