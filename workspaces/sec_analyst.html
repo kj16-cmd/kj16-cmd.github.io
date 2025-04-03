@@ -41,11 +41,14 @@
         users.forEach(user => {
             jsonDataDiv.innerHTML += `
                 <div class="user-info">
-                    <span>Date and time>> ${user.DateandTime} | </span>
-                    <span>Source_IP >> ${user.Source_IP} | </span>
-                    <span>Destination_IP >> ${user.Destination_IP} | </span>
-                    <span>Alert_type >> ${user.Alert_type} | </span>
-                    <span>Info >> ${user.Info} | </span>
+                    <span>Investigation name>> ${user.investigation_name} | </span>
+                    <span>Date Started >> ${user.date_started} | </span>
+                    <span>Status >> ${user.status} | </span>
+                    <span>Lead Investigator >> ${user.lead_investigator} | </span>
+                    <span>Attack Type >> ${user.attack_type} | </span>
+		    <span>Priority >> ${user.priority} | </span>
+     		    <span>Description >> ${user.description} | </span>
+      
                 </div>
             `;
         });
