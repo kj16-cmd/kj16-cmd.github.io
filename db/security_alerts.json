@@ -1,54 +1,128 @@
 [
-	{
-		"DateandTime":"22/03/25 19:30",
-		"Source_IP":"192.168.80.5",
-		"Destination_IP":"192.168.40.10",
-		"Alert_type":"test",
-		"Info":"message recieved"	
-	},
-	{
-		"DateandTime":"",
-		"Source_IP":"",
-		"Destination_IP":"",
-		"Alert_type":"",
-		"Info":""	
-	},
-	{
-		"DateandTime":"",
-		"Source_IP":"a",
-		"Destination_IP":"a",
-		"Alert_type":"a",
-		"Info":"a"	
-	},
-	{
-		"DateandTime":"12/03/25 10:00",
-		"Source_IP":"10.10.10.10",
-		"Destination_IP":"127.0.0.1",
-		"Alert_type":"",
-		"Info":"Maleware detected from <a href=\"busterping.html\"> investigation of busterping website</a>"
-
-	},
-	{
-		"DateandTime":"",
-		"Source_IP":"",
-		"Destination_IP":"",
-		"Alert_type":"",
-		"Info":""	
-	},
-	{
-		"DateandTime":"z",
-		"Source_IP":"z",
-		"Destination_IP":"z",
-		"Alert_type":"z",
-		"Info":"z"	
-	},
-	{
-		"DateandTime":"z",
-		"Source_IP":"z",
-		"Destination_IP":"z",
-		"Alert_type":"z",
-		"Info":"z"	
-	}
+  {
+    "investigation_name": "Project Shadow",
+    "date_started": "2025-03-20",
+    "status": "Resolved",
+    "lead_investigator": "Alice Smith",
+    "attack_type": "Phishing",
+    "priority": "Low",
+    "description": "A phishing email targeting employees to steal login credentials. No sensitive data was accessed."
+  },
+  {
+    "investigation_name": "Botnet Alert",
+    "date_started": "2025-03-15",
+    "status": "Ongoing",
+    "lead_investigator": "John Doe",
+    "attack_type": "Botnet",
+    "priority": "Medium",
+    "description": "A botnet attack is intermittently affecting website load times. It hasn't caused major service disruptions."
+  },
+  {
+    "investigation_name": "Misconfigurations",
+    "date_started": "2025-03-25",
+    "status": "Resolved",
+    "lead_investigator": "Sarah Johnson",
+    "attack_type": "Configuration Error",
+    "priority": "Low",
+    "description": "An internal misconfiguration in the firewall exposed non-critical server logs. No data breach occurred."
+  },
+  {
+    "investigation_name": "Infected Attachment",
+    "date_started": "2025-03-18",
+    "status": "Ongoing",
+    "lead_investigator": "David Lee",
+    "attack_type": "Malware",
+    "priority": "Medium",
+    "description": "Malware was found in an email attachment opened by a low-level employee. Systems were isolated and cleaned."
+  },
+  {
+    "investigation_name": "Failed Login Attempts",
+    "date_started": "2025-03-22",
+    "status": "Ongoing",
+    "lead_investigator": "Olivia Taylor",
+    "attack_type": "Brute Force Attack",
+    "priority": "Low",
+    "description": "Multiple failed login attempts were detected on the admin portal. Account lockouts and password changes were initiated."
+  },
+  {
+    "investigation_name": "Suspicious Activity Detected",
+    "date_started": "2025-03-30",
+    "status": "Ongoing",
+    "lead_investigator": "Emma Brown",
+    "attack_type": "Insider Threat",
+    "priority": "Medium",
+    "description": "Suspicious employee activity within internal systems. No data was accessed yet, but investigation ongoing."
+  },
+  {
+    "investigation_name": "Password Dump Leak",
+    "date_started": "2025-03-12",
+    "status": "Resolved",
+    "lead_investigator": "Michael Green",
+    "attack_type": "Credential Stuffing",
+    "priority": "Low",
+    "description": "A third-party breach exposed a list of reused passwords. Affected users were prompted to change passwords."
+  },
+  {
+    "investigation_name": "Site Defacement",
+    "date_started": "2025-03-05",
+    "status": "Resolved",
+    "lead_investigator": "Richard Miller",
+    "attack_type": "Website Defacement",
+    "priority": "Low",
+    "description": "A website defacement occurred. The attacker replaced the homepage with a message, but no data was stolen."
+  },
+  {
+    "investigation_name": "Outdated Software Exploit",
+    "date_started": "2025-03-28",
+    "status": "Ongoing",
+    "lead_investigator": "Daniel Clark",
+    "attack_type": "Software Exploit",
+    "priority": "Medium",
+    "description": "An exploit in outdated software allowed unauthorized access to a non-sensitive internal network. Patches have been applied."
+  },
+  {
+    "investigation_name": "USB Malware Incident",
+    "date_started": "2025-03-10",
+    "status": "Resolved",
+    "lead_investigator": "Sophia Collins",
+    "attack_type": "USB Malware",
+    "priority": "Low",
+    "description": "A USB drive containing malware was accidentally plugged into the company network. The device was isolated and malware was removed."
+  },
+  {
+    "investigation_name": "Unauthorized Software Installation",
+    "date_started": "2025-03-18",
+    "status": "Resolved",
+    "lead_investigator": "George Thomas",
+    "attack_type": "Software Installation",
+    "priority": "Low",
+    "description": "An unauthorized software application was found installed on a workstation. It was removed and the user warned."
+  },
+  {
+    "investigation_name": "Flagged Traffic Pattern",
+    "date_started": "2025-04-01",
+    "status": "Ongoing",
+    "lead_investigator": "Liam Turner",
+    "attack_type": "DDoS",
+    "priority": "High",
+    "description": "Suspicious DDoS attack detected. Multiple IPs are flooding the company’s servers. Affected services are being mitigated."
+  },
+  {
+    "investigation_name": "Backup Server Attack",
+    "date_started": "2025-02-27",
+    "status": "Resolved",
+    "lead_investigator": "Nina Harris",
+    "attack_type": "Backup Server Compromise",
+    "priority": "Medium",
+    "description": "Unauthorized access to backup servers was detected. Only non-critical backup data was compromised."
+  },
+  {
+    "investigation_name": "VPN Breach Attempt",
+    "date_started": "2025-03-02",
+    "status": "Ongoing",
+    "lead_investigator": "Sophia Martin",
+    "attack_type": "VPN Breach",
+    "priority": "Medium",
+    "description": "An attempted VPN breach by a threat actor was detected. No successful connections were made, but monitoring continues."
+  }
 ]
-		
-
