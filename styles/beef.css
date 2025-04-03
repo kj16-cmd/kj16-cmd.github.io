@@ -33,12 +33,12 @@ body {
 
 /* Style for each user entry */
 #data_field .user-info {
-    border: 2px solid #333;  /* Border around each user entry */
-    padding: 5px;  /* Add padding inside each entry */
-    margin-bottom: 5px;  /* Add some space between entries */
-    border-radius: 8px;  /* Optional: Adds rounded corners */
-    margin-top: 50px; /*adds padding to the top of the entries tables*/
-    background-color: #f9f9f9;  /* Light background color */
+    /*border: 2px solid #333;   Border around each user entry */
+    /*padding: 5px;   Add padding inside each entry */
+  /*  margin-bottom: 5px;  Add some space between entries */
+    /*border-radius: 8px;   Optional: Adds rounded corners */
+   /* margin-top: 50px; adds padding to the top of the entries tables*/
+   /* background-color: #f9f9f9;   Light background color */
 }
 
 /* Style for each individual span inside user-info */
