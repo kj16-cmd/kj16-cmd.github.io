@@ -33,22 +33,27 @@ body {
 
 /* Style for each user entry */
 #data_field .user-info {
-    /*border: 2px solid #333;   Border around each user entry */
-    /*padding: 5px;   Add padding inside each entry */
-  /*  margin-bottom: 5px;  Add some space between entries */
-    /*border-radius: 8px;   Optional: Adds rounded corners */
-   /* margin-top: 50px; adds padding to the top of the entries tables*/
-   /* background-color: #f9f9f9;   Light background color */
+    display: flex;  /* Flexbox to arrange items horizontally */
+    align-items: center;  /* Vertically center items in the row */
+    margin-bottom: 10px;  /* Add some space between user entries */
+    padding: 10px;  /* Add padding around each entry */
+    background-color: #f9f9f9;  /* Light background color */
+    border-radius: 8px;  /* Optional: Adds rounded corners */
 }
 
 /* Style for each individual span inside user-info */
 #data_field .user-info span {
-    display: block;  /* Make each span appear on its own line */
-    margin-bottom: 5px;  /* Space between the lines of user data */
+    margin-right: 20px;  /* Add space between each user info (Name, Username, etc.) */
+    white-space: nowrap;  /* Prevent text from wrapping */
 }
 
 /* Optional: Hover effect for user-info */
 #data_field .user-info:hover {
     background-color: #e6e6e6;  /* Change background color when hovering */
     cursor: pointer;  /* Make the cursor pointer to indicate interactiveness */
+}
+
+/* Optional: Add a border to each user entry */
+#data_field .user-info {
+    border: 2px solid #333;  /* Border around each user entry */
 }
