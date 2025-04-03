@@ -33,7 +33,7 @@
   "lead_investigator": "Marcus Doyle",
   "attack_type": "Hacktivism / Persona",
   "priority": "High",
-  "description": "An anonymous hacker using the alias 'Buster Ping' has targeted the company’s internal systems. The attacker left behind a calling card, a cryptic message, which led to a personal website: <a href=\"/busterping.html"/>https://busterping.com</a>. The website contains suspicious content and seems to be a possible lead on the identity or motives of the attacker. Investigation is ongoing to identify the source, intent, and scope of the attack."
+  "description": "An anonymous hacker using the alias 'Buster Ping' has targeted the company’s internal systems. The attacker left behind a calling card, a cryptic message, which led to a personal website: <a href=\"/busterping.html\">https://busterping.com</a>. The website contains suspicious content and seems to be a possible lead on the identity or motives of the attacker. Investigation is ongoing to identify the source, intent, and scope of the attack."
 },
   {
     "investigation_name": "Infected Attachment",
