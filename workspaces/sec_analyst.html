@@ -22,7 +22,7 @@
     let usersData = []; // This will store the fetched JSON data
 
     // Fetch the data from the JSON file
-    fetch('/db/security_alerts.json?')
+    fetch('/db/investigation.json?')
         .then(response => response.json())
         .then(data => {
             usersData = data; // Store the data
@@ -34,7 +34,7 @@
 
     // Function to display users
     function displayUsers(users) {
-        const jsonDataDiv = document.getElementById("Alerts");
+        const jsonDataDiv = document.getElementById("data_fields");
         jsonDataDiv.innerHTML = ''; // Clear existing content
 
         // Loop through each user and display the data
