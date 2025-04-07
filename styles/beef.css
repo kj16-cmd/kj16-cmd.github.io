@@ -49,8 +49,8 @@ body {
 #data_field .user-info {
     display: flex;
     flex-direction: column;  /* Stack the label-value pairs vertically */
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
     background-color: #f9f9f9;
     border-radius: 8px;
     width: 100%;
@@ -63,7 +63,7 @@ body {
 #data_field .user-info .info-row {
     display: grid;
     grid-template-columns: 1fr 1fr;  /* Create two equal-width columns for label and value */
-    gap: 10px;  /* Space between the label and value */
+    gap: 5px;  /* Space between the label and value */
     margin-bottom: 5px;
     width: 100%;
     align-items: center;  /* Align the label and value vertically */
@@ -74,13 +74,13 @@ body {
     font-weight: bold;  /* Make the label bold */
     text-align: right;  /* Align label text to the right */
     justify-self: end;  /* Push labels to the end of the cell (right-aligned) */
-    padding-right: 10px;  /* Add some space between the label and value */
+    padding-right: 5px;  /* Add some space between the label and value */
 }
 
 /* Style for values (e.g., user name, role, etc.) */
 #data_field .user-info .info-value {
     text-align: left;  /* Align value text to the left */
-    padding-left: 10px;  /* Add some space between the label and value */
+    padding-left: 50px;  /* Add some space between the label and value */
     word-wrap: break-word;  /* Allow long text to break onto the next line */
     word-break: break-word;  /* Ensures long words will wrap */
 }
