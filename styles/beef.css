@@ -34,7 +34,7 @@ body {
 /* Style for each user entry */
 #data_field .user-info {
     display: flex;
-    flex-direction: column;  /* Stack the rows vertically */
+    flex-direction: column;  /* Stack the label-value pairs vertically */
     margin-bottom: 10px;
     padding: 10px;
     background-color: #f9f9f9;
@@ -47,9 +47,10 @@ body {
 
 /* Style for each row of info (label-value pair) */
 #data_field .user-info .info-row {
-    display: flex;
-    margin-bottom: 5px;  /* Space between rows */
-    flex-wrap: wrap;  /* Allow content to wrap if necessary */
+    display: flex;  /* Flexbox for horizontal layout of labels and values */
+    margin-bottom: 5px;  /* Space between label-value pairs */
+    justify-content: space-between;  /* Ensure labels and values are spaced evenly */
+    width: 100%;  /* Make the row take up the full width */
 }
 
 /* Style for labels (e.g., "Name", "Username") */
