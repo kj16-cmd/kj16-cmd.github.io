@@ -2,12 +2,14 @@
 .header {
   background-color: #4d88ff;
   padding: 50px;
+  text-align: center;
 }
 .center-both {
   display: flex;
   justify-content: center;  
-  align-items: center;  
-  height: 50vh;          
+  align-items: flex-start;  
+  width: 100%;
+  padding: 20px;
   background-color: #808080
 }
 
@@ -15,6 +17,9 @@
 .center-text {
   text-align: center;  
   font-family: Arial, wingdings;
+  width: 100%;
+  max-width:12000px;
+  padding: 10pc;
 }
 
 
