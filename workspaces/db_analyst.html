@@ -52,11 +52,11 @@
         pageData.forEach(user => {
             jsonDataDiv.innerHTML += `
                 <div class="user-info">
-                    <span>Name: ${user.Name}</span>
-                    <span>Username: ${user.Username}</span>
-                    <span>Password: ${user.encryptedpassword}</span>
-                    <span>Email: ${user.email}</span>
-                    <span>Role: ${user.role}</span>
+                    <span>Name:<br> ${user.Name}</span>
+                    <span>Username:<br> ${user.Username}</span>
+                    <span>Password:<br> ${user.encryptedpassword}</span>
+                    <span>Email:<br> ${user.email}</span>
+                    <span>Role:<br> ${user.role}</span>
                 </div>
             `;
         });
