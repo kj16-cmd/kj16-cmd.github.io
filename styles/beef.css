@@ -29,7 +29,7 @@ body {
 
 
 #data_field {
-    width: 80%;  /* Make it 80% of the screen width */
+    width: 50%;  /* Make it 80% of the screen width */
     margin-top: 20px;  /* Adds some space from the top */
     padding: 10px;
     box-sizing: border-box;
