@@ -24,16 +24,14 @@ body {
 
 
 #data_field {
-    max-height: 80vh;  /* Use a percentage of the screen height (80% of the viewport height) */
-    width: 80%;  /* Ensure it's 80% of the screen width */
-    overflow-y: auto;  /* Enable vertical scrolling if content exceeds the available space */
-    box-sizing: border-box;
+    width: 80%;  /* Make it 80% of the screen width */
+    margin-top: 20px;  /* Adds some space from the top */
     padding: 10px;
-    margin-top: 20px;  /* Optional: Adds some space from the top */
-    background-color: #fff;  /* Ensure it's visible on the page */
+    box-sizing: border-box;
+    background-color: #fff;
 }
 
-/* Style for each user entry */
+/* Style for each user entry (same as before) */
 #data_field .user-info {
     display: flex;
     flex-direction: column;  /* Stack the label-value pairs vertically */
@@ -48,6 +46,16 @@ body {
 }
 
 /* Style for each row of info (label-value pair) */
+#data_field .user-info .info-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* Create two equal-width columns for label and value */
+    gap: 10px;  /* Space between the label and value */
+    margin-bottom: 5px;
+    width: 100%;
+    align-items: center;  /* Align the label and value vertically */
+}
+
+/* Style for labels (e.g., "Name", "Username") */
 #data_field .user-info .info-label {
     font-weight: bold;  /* Make the label bold */
     text-align: right;  /* Align label text to the right */
