@@ -92,9 +92,9 @@ body {
 }
 
 
-
 /* below is stuff for images work in progress */
 .buster-ping, .pet-image, .movie-image, .hobbies-image, .bragging-image {
+    width: 60%;   /* Width of the element */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,4 +112,3 @@ body {
 .buster-ping img:hover, .pet-image img:hover, .movie-image img:hover, .hobbies-image img:hover, .bragging-image img:hover {
     transform: scale(1.05);
 }
-
