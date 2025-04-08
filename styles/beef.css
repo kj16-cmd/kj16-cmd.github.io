@@ -101,7 +101,7 @@ body {
     margin-top: 20px;
 }
 
-.buster-ping img, .pet-image img, .movie-image img, .hobbies-image img, .bragging-image img {
+.buster-ping img, .pet-image img, .movie-image img, .hobbies-image img, .header img {
     max-width: 50%;
     height: auto;
     border-radius: 8px;
