@@ -90,3 +90,26 @@ body {
     background-color: #e6e6e6;  /* Change background color when hovering */
     cursor: pointer;  /* Make the cursor pointer to indicate interactiveness */
 }
+
+
+
+/* below is stuff for images work in progress */
+.buster-ping, .pet-image, .movie-image, .hobbies-image, .bragging-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buster-ping img, .pet-image img, .movie-image img, .hobbies-image img, .bragging-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.buster-ping img:hover, .pet-image img:hover, .movie-image img:hover, .hobbies-image img:hover, .bragging-image img:hover {
+    transform: scale(1.05);
+}
+
