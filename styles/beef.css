@@ -93,7 +93,7 @@ body {
 
 
 /* below is stuff for images work in progress */
-.buster-ping, .pet-image, .movie-image, .hobbies-image, .bragging-image {
+.buster-ping, .pet-image, .movie-image, .hobbies-image, .header, .bragging-image {
     width: 60%;   /* Width of the element */
     display: flex;
     justify-content: center;
